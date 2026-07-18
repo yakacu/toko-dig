@@ -4,13 +4,6 @@ Migrasi dari aplikasi PHP native (`mysqli` + HTML manual) ke Laravel 11,
 lengkap dengan fitur **live search (debounce)** dan beberapa **optimasi
 query/cache**.
 
-> ⚠️ **Penting:** paket ini bukan project Laravel yang utuh — ini adalah
-> kode aplikasi (Model, Controller, View, Migration, Seeder, Routes, Provider)
-> yang harus digabung ke project Laravel baru. Sandbox tempat saya bekerja
-> tidak punya akses ke `packagist.org`, jadi saya tidak bisa menjalankan
-> `composer create-project` di sana. Ikuti langkah di bawah ini di
-> komputer/servermu sendiri (yang ada akses internet).
-
 ---
 
 ## Daftar Isi
